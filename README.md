@@ -8,4 +8,4 @@ There may be a problem with th blueprism version. This bot is developed in ver6.
 However, there is nothin on the project that concerns coordinates of the data items&stages etc. (If there was block-recover-resume structures, that would be a hug issue)
 If you encounter this problem, just drag and organize the layout manually.
 Contact me for any questions.
-Baris.karakas@hotmail.com
+Baris.karakas94@gmail.com
