@@ -1,0 +1,31 @@
+﻿<process name="RPA Challange Process" version="1.0" bpversion="6.6.0.15260" narrative="Author Baris.karakas94@gmail.com" byrefcollection="true" preferredid="e8aea609-680b-451f-bfd8-846e4a408155" published="true">
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <stage stageid="b5793635-0ec6-404e-a649-49a6f6ef14d2" name="Start" type="Start">
+    <display x="15" y="-120" />
+    <onsuccess>913e0fae-f9bc-4962-afe7-800868c4bb83</onsuccess>
+  </stage>
+  <stage stageid="2af17c1a-65b0-4592-bcbb-458232e06f90" name="End" type="End">
+    <display x="15" y="105" />
+  </stage>
+  <stage stageid="3a919e8a-25ba-442b-8f2f-348205524bde" name="Stage1" type="ProcessInfo">
+    <display x="-195" y="-105" w="150" h="60" />
+  </stage>
+  <stage stageid="3d19b52b-66fd-4af8-b13f-02e965a166ce" name="RPA_Challange Main::Main" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="15" y="30" w="90" h="30" />
+    <onsuccess>2af17c1a-65b0-4592-bcbb-458232e06f90</onsuccess>
+    <resource object="RPA_Challange Main" action="Main" />
+  </stage>
+  <stage stageid="913e0fae-f9bc-4962-afe7-800868c4bb83" name="Note1" type="Note">
+    <narrative>Publish this process to Control Room and run it from control room for maximum speed</narrative>
+    <display x="15" y="-45" w="90" h="60" />
+    <font family="Segoe UI" size="10" style="Bold" color="000000" />
+    <onsuccess>3d19b52b-66fd-4af8-b13f-02e965a166ce</onsuccess>
+  </stage>
+</process>

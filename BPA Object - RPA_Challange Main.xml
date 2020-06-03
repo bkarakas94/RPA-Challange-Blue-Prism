@@ -1,0 +1,1994 @@
+﻿<process name="RPA_Challange Main" version="1.0" bpversion="6.6.0.15260" narrative="Author: Baris.karakas@hotmail.com" byrefcollection="true" type="object" runmode="Exclusive" preferredid="e471d7f1-cba1-49e3-b5d7-38e89ad1a1dc">
+  <appdef>
+    <element name="RPA_Challange">
+      <id>d88b70f8-8e0f-4bdd-975a-af31bf096c81</id>
+      <group name="00 - General Stuff">
+        <id>40d4ebbb-5d60-4ade-adf8-350429a72cca</id>
+        <element name="IE_Frame">
+          <id>41e885b5-35dc-45bf-a07e-cc997e50dc39</id>
+          <type>Window</type>
+          <basetype>Window</basetype>
+          <datatype>text</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="WindowText" comparisontype="Wildcard" inuse="True">
+              <ProcessValue datatype="text" value="Rpa Challenge*" />
+            </attribute>
+            <attribute name="ClassName" inuse="True">
+              <ProcessValue datatype="text" value="IEFrame" />
+            </attribute>
+            <attribute name="CtrlID">
+              <ProcessValue datatype="number" value="0" />
+            </attribute>
+            <attribute name="X">
+              <ProcessValue datatype="number" value="552" />
+            </attribute>
+            <attribute name="Y">
+              <ProcessValue datatype="number" value="64" />
+            </attribute>
+            <attribute name="Width">
+              <ProcessValue datatype="number" value="697" />
+            </attribute>
+            <attribute name="Height">
+              <ProcessValue datatype="number" value="455" />
+            </attribute>
+            <attribute name="Visible" inuse="True">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="ScreenVisible" inuse="True">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Enabled" inuse="True">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Active">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Ordinal">
+              <ProcessValue datatype="number" value="8" />
+            </attribute>
+            <attribute name="ChildCount">
+              <ProcessValue datatype="number" value="6" />
+            </attribute>
+            <attribute name="AncestorsText">
+              <ProcessValue datatype="text" value="&lt;UNKNOWN&gt; " />
+            </attribute>
+            <attribute name="AncestorCount">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+            <attribute name="TypeName">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="ScreenBounds">
+              <ProcessValue datatype="text" value="RECT:560,64,510,1240" />
+            </attribute>
+            <attribute name="Style">
+              <ProcessValue datatype="number" value="382664704" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+            <attribute name="MatchReverse">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+          </attributes>
+        </element>
+      </group>
+      <group name="01 - Excel Download Things">
+        <id>cdb59d95-2f77-4152-a5c0-1511c8df0df0</id>
+        <element name="Download Excel">
+          <id>817a2b3c-20a8-4efa-952a-7dffa3aeac9e</id>
+          <type>UIAHyperlink</type>
+          <basetype>UIAHyperlink</basetype>
+          <datatype>text</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="uX">
+              <ProcessValue datatype="number" value="11" />
+            </attribute>
+            <attribute name="uY">
+              <ProcessValue datatype="number" value="586" />
+            </attribute>
+            <attribute name="uWidth">
+              <ProcessValue datatype="number" value="315" />
+            </attribute>
+            <attribute name="uHeight">
+              <ProcessValue datatype="number" value="36" />
+            </attribute>
+            <attribute name="uClassName">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="uAutomationId">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="uControlType" inuse="True">
+              <ProcessValue datatype="text" value="Hyperlink" />
+            </attribute>
+            <attribute name="uLocalizedControlType">
+              <ProcessValue datatype="text" value="link" />
+            </attribute>
+            <attribute name="uIsPassword">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="uIsRequiredForForm">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="uName" inuse="True">
+              <ProcessValue datatype="text" value="Download Excel cloud_download" />
+            </attribute>
+            <attribute name="uOrientation">
+              <ProcessValue datatype="text" value="None" />
+            </attribute>
+            <attribute name="uItemStatus">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="uItemType">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="uOffscreen">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="uTopLevelWindowId">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="uLabeledBy">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="uEnabled">
+              <ProcessValue datatype="text" value="True" />
+            </attribute>
+            <attribute name="uAcceleratorKey">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="uAccessKey">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="uHasKeyboardFocus">
+              <ProcessValue datatype="text" value="True" />
+            </attribute>
+            <attribute name="uHelpText">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="uProcessId">
+              <ProcessValue datatype="text" value="3680" />
+            </attribute>
+            <attribute name="puControlType">
+              <ProcessValue datatype="text" value="Pane" />
+            </attribute>
+            <attribute name="puLocalizedControlType">
+              <ProcessValue datatype="text" value="pane" />
+            </attribute>
+            <attribute name="puClassName">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="puName">
+              <ProcessValue datatype="text" value="Rpa Challenge" />
+            </attribute>
+            <attribute name="puAutomationId">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+          </attributes>
+        </element>
+        <element name="SaveAs Button">
+          <id>042f3174-c3cf-43ae-8791-305777f80923</id>
+          <type>UIAButton</type>
+          <basetype>UIAButton</basetype>
+          <datatype>text</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="uX">
+              <ProcessValue datatype="number" value="483" />
+            </attribute>
+            <attribute name="uY">
+              <ProcessValue datatype="number" value="393" />
+            </attribute>
+            <attribute name="uWidth">
+              <ProcessValue datatype="number" value="383" />
+            </attribute>
+            <attribute name="uHeight">
+              <ProcessValue datatype="number" value="41" />
+            </attribute>
+            <attribute name="uClassName">
+              <ProcessValue datatype="text" value="CCCommandLink" />
+            </attribute>
+            <attribute name="uAutomationId">
+              <ProcessValue datatype="text" value="CommandLink_4358" />
+            </attribute>
+            <attribute name="uControlType" inuse="True">
+              <ProcessValue datatype="text" value="Button" />
+            </attribute>
+            <attribute name="uLocalizedControlType">
+              <ProcessValue datatype="text" value="button" />
+            </attribute>
+            <attribute name="uIsPassword">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="uIsRequiredForForm">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="uName" inuse="True">
+              <ProcessValue datatype="text" value="Save as" />
+            </attribute>
+            <attribute name="uOrientation">
+              <ProcessValue datatype="text" value="None" />
+            </attribute>
+            <attribute name="uItemStatus">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="uItemType">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="uOffscreen">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="uTopLevelWindowId">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="uLabeledBy">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="uEnabled">
+              <ProcessValue datatype="text" value="True" />
+            </attribute>
+            <attribute name="uAcceleratorKey">
+              <ProcessValue datatype="text" value="Alt+a" />
+            </attribute>
+            <attribute name="uAccessKey">
+              <ProcessValue datatype="text" value="Alt+a" />
+            </attribute>
+            <attribute name="uHasKeyboardFocus">
+              <ProcessValue datatype="text" value="False" />
+            </attribute>
+            <attribute name="uHelpText">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="uProcessId">
+              <ProcessValue datatype="text" value="3148" />
+            </attribute>
+            <attribute name="puControlType">
+              <ProcessValue datatype="text" value="Window" />
+            </attribute>
+            <attribute name="puLocalizedControlType">
+              <ProcessValue datatype="text" value="dialog" />
+            </attribute>
+            <attribute name="puClassName">
+              <ProcessValue datatype="text" value="#32770" />
+            </attribute>
+            <attribute name="puName">
+              <ProcessValue datatype="text" value="Internet Explorer" />
+            </attribute>
+            <attribute name="puAutomationId">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+          </attributes>
+        </element>
+        <element name="File Name Edit Box">
+          <id>4dcc217e-c253-4462-9c51-80ddd91b7a95</id>
+          <type>UIAEdit</type>
+          <basetype>UIAEdit</basetype>
+          <datatype>text</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="uX">
+              <ProcessValue datatype="number" value="136" />
+            </attribute>
+            <attribute name="uY">
+              <ProcessValue datatype="number" value="582" />
+            </attribute>
+            <attribute name="uWidth">
+              <ProcessValue datatype="number" value="1197" />
+            </attribute>
+            <attribute name="uHeight">
+              <ProcessValue datatype="number" value="17" />
+            </attribute>
+            <attribute name="uClassName" inuse="True">
+              <ProcessValue datatype="text" value="Edit" />
+            </attribute>
+            <attribute name="uAutomationId">
+              <ProcessValue datatype="text" value="1001" />
+            </attribute>
+            <attribute name="uControlType" inuse="True">
+              <ProcessValue datatype="text" value="Edit" />
+            </attribute>
+            <attribute name="uLocalizedControlType">
+              <ProcessValue datatype="text" value="edit" />
+            </attribute>
+            <attribute name="uIsPassword">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="uIsRequiredForForm">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="uName" inuse="True">
+              <ProcessValue datatype="text" value="File name:" />
+            </attribute>
+            <attribute name="uOrientation">
+              <ProcessValue datatype="text" value="None" />
+            </attribute>
+            <attribute name="uItemStatus">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="uItemType">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="uOffscreen">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="uTopLevelWindowId" inuse="True">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="uLabeledBy">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="uEnabled">
+              <ProcessValue datatype="text" value="True" />
+            </attribute>
+            <attribute name="uAcceleratorKey">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="uAccessKey">
+              <ProcessValue datatype="text" value="Alt+n" />
+            </attribute>
+            <attribute name="uHasKeyboardFocus">
+              <ProcessValue datatype="text" value="True" />
+            </attribute>
+            <attribute name="uHelpText">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="uProcessId">
+              <ProcessValue datatype="text" value="3148" />
+            </attribute>
+            <attribute name="puControlType">
+              <ProcessValue datatype="text" value="ComboBox" />
+            </attribute>
+            <attribute name="puLocalizedControlType">
+              <ProcessValue datatype="text" value="combo box" />
+            </attribute>
+            <attribute name="puClassName">
+              <ProcessValue datatype="text" value="AppControlHost" />
+            </attribute>
+            <attribute name="puName">
+              <ProcessValue datatype="text" value="File name:" />
+            </attribute>
+            <attribute name="puAutomationId">
+              <ProcessValue datatype="text" value="FileNameControlHost" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+          </attributes>
+        </element>
+      </group>
+      <group name="02 - Challange">
+        <id>6343b998-6fd2-4fa2-b57c-07369d9b1769</id>
+        <element name="Start Button">
+          <id>7f1fb302-72d4-4616-b560-8fac4fff8424</id>
+          <type>HTML</type>
+          <basetype>HTML</basetype>
+          <datatype>text</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="X">
+              <ProcessValue datatype="number" value="11" />
+            </attribute>
+            <attribute name="Y">
+              <ProcessValue datatype="number" value="552" />
+            </attribute>
+            <attribute name="Width">
+              <ProcessValue datatype="number" value="315" />
+            </attribute>
+            <attribute name="Height">
+              <ProcessValue datatype="number" value="54" />
+            </attribute>
+            <attribute name="Path">
+              <ProcessValue datatype="text" value="/HTML/BODY(1)/app-root(1)/DIV(2)/app-rpa1(1)/DIV(1)/DIV(1)/DIV(6)/BUTTON(1)" />
+            </attribute>
+            <attribute name="TagName" inuse="True">
+              <ProcessValue datatype="text" value="BUTTON" />
+            </attribute>
+            <attribute name="ClassName">
+              <ProcessValue datatype="text" value="waves-effect col s12 m12 l12 btn-large uiColorButton" />
+            </attribute>
+            <attribute name="ID">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Title">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Link">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="InputType">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="InputIdentifier2">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="AncestorCount">
+              <ProcessValue datatype="number" value="8" />
+            </attribute>
+            <attribute name="Value" inuse="True">
+              <ProcessValue datatype="text" value="Start" />
+            </attribute>
+            <attribute name="Enabled" inuse="True">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Checked">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pURL">
+              <ProcessValue datatype="text" value="http://rpachallenge.com/" />
+            </attribute>
+            <attribute name="ScreenBounds">
+              <ProcessValue datatype="text" value="RECT:11,607,661,326" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+            <attribute name="MatchReverse">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+          </attributes>
+        </element>
+        <element name="Inputs Div">
+          <id>92b85ea4-9f00-45e7-899b-4ecb8f7d70bd</id>
+          <type>HTML</type>
+          <basetype>HTML</basetype>
+          <datatype>text</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="X">
+              <ProcessValue datatype="number" value="437" />
+            </attribute>
+            <attribute name="Y">
+              <ProcessValue datatype="number" value="50" />
+            </attribute>
+            <attribute name="Width">
+              <ProcessValue datatype="number" value="563" />
+            </attribute>
+            <attribute name="Height">
+              <ProcessValue datatype="number" value="354" />
+            </attribute>
+            <attribute name="Path" inuse="True">
+              <ProcessValue datatype="text" value="/HTML/BODY(1)/app-root(1)/DIV(2)/app-rpa1(1)/DIV(1)/DIV(2)/FORM(1)/DIV(1)" />
+            </attribute>
+            <attribute name="TagName">
+              <ProcessValue datatype="text" value="DIV" />
+            </attribute>
+            <attribute name="ClassName">
+              <ProcessValue datatype="text" value="row" />
+            </attribute>
+            <attribute name="ID">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Title">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Link">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="InputType">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="InputIdentifier2">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="AncestorCount">
+              <ProcessValue datatype="number" value="8" />
+            </attribute>
+            <attribute name="Value">
+              <ProcessValue datatype="text" value="&#xD;&#xA;&#xD;&#xA;Role in Company&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Company Name&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Phone Number&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Last Name&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Address&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Email&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;First Name" />
+            </attribute>
+            <attribute name="Enabled">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Checked">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pURL">
+              <ProcessValue datatype="text" value="http://rpachallenge.com/" />
+            </attribute>
+            <attribute name="ScreenBounds">
+              <ProcessValue datatype="text" value="RECT:437,191,545,1001" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+            <attribute name="MatchReverse">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+          </attributes>
+        </element>
+        <element name="dynamicInput">
+          <id>8404979d-5658-4fb8-9662-a379ce4e6489</id>
+          <type>HTMLEdit</type>
+          <basetype>HTMLEdit</basetype>
+          <datatype>text</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="X">
+              <ProcessValue datatype="number" value="449" />
+            </attribute>
+            <attribute name="Y">
+              <ProcessValue datatype="number" value="73" />
+            </attribute>
+            <attribute name="Width">
+              <ProcessValue datatype="number" value="259" />
+            </attribute>
+            <attribute name="Height">
+              <ProcessValue datatype="number" value="46" />
+            </attribute>
+            <attribute name="Path">
+              <ProcessValue datatype="text" value="/HTML/BODY(1)/app-root(1)/DIV(2)/app-rpa1(1)/DIV(1)/DIV(2)/FORM(1)/DIV(1)/DIV(1)/rpa1-field(1)/DIV(1)/INPUT(1)" />
+            </attribute>
+            <attribute name="TagName" inuse="True">
+              <ProcessValue datatype="text" value="INPUT" />
+            </attribute>
+            <attribute name="ClassName" comparisontype="dynamic" inuse="True">
+              <ProcessValue datatype="text" value="ng-untouched ng-pristine ng-invalid" />
+            </attribute>
+            <attribute name="ID" comparisontype="dynamic" inuse="True">
+              <ProcessValue datatype="text" value="p2AJC" />
+            </attribute>
+            <attribute name="Title">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Link">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="InputType">
+              <ProcessValue datatype="text" value="text" />
+            </attribute>
+            <attribute name="InputIdentifier2">
+              <ProcessValue datatype="text" value="p2AJC" />
+            </attribute>
+            <attribute name="AncestorCount">
+              <ProcessValue datatype="number" value="12" />
+            </attribute>
+            <attribute name="Value">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Enabled">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Checked">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pURL">
+              <ProcessValue datatype="text" value="http://rpachallenge.com/" />
+            </attribute>
+            <attribute name="ScreenBounds">
+              <ProcessValue datatype="text" value="RECT:449,214,260,708" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+            <attribute name="MatchReverse">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+          </attributes>
+        </element>
+        <element name="Submit Button">
+          <id>d64526e7-8e36-42f9-8328-874cc552e4a3</id>
+          <type>HTMLButton</type>
+          <basetype>HTMLButton</basetype>
+          <datatype>text</datatype>
+          <diagnose>False</diagnose>
+          <attributes>
+            <attribute name="X">
+              <ProcessValue datatype="number" value="437" />
+            </attribute>
+            <attribute name="Y">
+              <ProcessValue datatype="number" value="404" />
+            </attribute>
+            <attribute name="Width">
+              <ProcessValue datatype="number" value="120" />
+            </attribute>
+            <attribute name="Height">
+              <ProcessValue datatype="number" value="36" />
+            </attribute>
+            <attribute name="Path" inuse="True">
+              <ProcessValue datatype="text" value="/HTML/BODY(1)/app-root(1)/DIV(2)/app-rpa1(1)/DIV(1)/DIV(2)/FORM(1)/INPUT(1)" />
+            </attribute>
+            <attribute name="TagName" inuse="True">
+              <ProcessValue datatype="text" value="INPUT" />
+            </attribute>
+            <attribute name="ClassName" inuse="True">
+              <ProcessValue datatype="text" value="btn uiColorButton" />
+            </attribute>
+            <attribute name="ID" inuse="True">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Title">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="Link">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="InputType" inuse="True">
+              <ProcessValue datatype="text" value="submit" />
+            </attribute>
+            <attribute name="InputIdentifier2">
+              <ProcessValue datatype="text" value="" />
+            </attribute>
+            <attribute name="AncestorCount">
+              <ProcessValue datatype="number" value="8" />
+            </attribute>
+            <attribute name="Value" inuse="True">
+              <ProcessValue datatype="text" value="Submit" />
+            </attribute>
+            <attribute name="Enabled">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+            <attribute name="Checked">
+              <ProcessValue datatype="flag" value="False" />
+            </attribute>
+            <attribute name="pURL">
+              <ProcessValue datatype="text" value="http://rpachallenge.com/" />
+            </attribute>
+            <attribute name="ScreenBounds">
+              <ProcessValue datatype="text" value="RECT:437,545,581,557" />
+            </attribute>
+            <attribute name="MatchIndex">
+              <ProcessValue datatype="number" value="1" />
+            </attribute>
+            <attribute name="MatchReverse">
+              <ProcessValue datatype="flag" value="True" />
+            </attribute>
+          </attributes>
+        </element>
+      </group>
+      <type>Application</type>
+      <basetype>Application</basetype>
+      <datatype>unknown</datatype>
+      <diagnose>False</diagnose>
+    </element>
+    <apptypeinfo>
+      <id>HTMLAttach</id>
+      <parameters>
+        <parameter>
+          <name>WindowTitle</name>
+          <value>
+          </value>
+        </parameter>
+        <parameter>
+          <name>ProcessName</name>
+          <value>iexplore</value>
+        </parameter>
+        <parameter>
+          <name>Path</name>
+          <value>C:\Program Files\Internet Explorer\iexplore.exe</value>
+        </parameter>
+        <parameter>
+          <name>CommandLineParams</name>
+          <value>http://rpachallenge.com</value>
+        </parameter>
+        <parameter>
+          <name>ActiveTabOnly</name>
+          <value>True</value>
+        </parameter>
+        <parameter>
+          <name>UseJavaInBrowser</name>
+          <value>False</value>
+        </parameter>
+        <parameter>
+          <name>ExcludeHTC</name>
+          <value>True</value>
+        </parameter>
+        <parameter>
+          <name>ProcessMode</name>
+          <value>Internal</value>
+        </parameter>
+        <parameter>
+          <name>ExternalProcessTimeout</name>
+          <value>0</value>
+        </parameter>
+      </parameters>
+    </apptypeinfo>
+  </appdef>
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <subsheet subsheetid="77dde07c-95e2-4fa9-bdd3-5322a5104c3d" type="CleanUp" published="True">
+    <name>Clean Up</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d" type="Normal" published="True">
+    <name>Main</name>
+    <view>
+      <camerax>-21</camerax>
+      <cameray>6</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="08862648-6cce-4be2-ba51-462113b1b801" type="Normal" published="False">
+    <name>Launch</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>51</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="19909a68-8267-4391-819e-58008fc22536" type="Normal" published="False">
+    <name>Populate</name>
+    <view>
+      <camerax>-65</camerax>
+      <cameray>105</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="eadf0279-e092-45a9-9702-4e6b2ac766bc" type="Normal" published="False">
+    <name>Download Excel</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>-76</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="2cc45de9-72fd-4a50-af50-ed10bb911f30" name="Start" type="Start">
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>e48e802d-996c-48f5-bd89-dfae619e33d2</onsuccess>
+  </stage>
+  <stage stageid="e48e802d-996c-48f5-bd89-dfae619e33d2" name="End" type="End">
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="359ed2cf-cf3e-44cc-93ba-8402d0c03a89" name="Stage1" type="ProcessInfo">
+    <display x="-195" y="-105" w="150" h="90" />
+    <references>
+      <reference>System.dll</reference>
+      <reference>System.Data.dll</reference>
+      <reference>System.Xml.dll</reference>
+      <reference>System.Drawing.dll</reference>
+    </references>
+    <imports>
+      <import>System</import>
+      <import>System.Drawing</import>
+      <import>System.Data</import>
+    </imports>
+    <language>csharp</language>
+    <globalcode><![CDATA[]]></globalcode>
+    <code><![CDATA[//Author: Baris.karakas@hotmail.com
+public void midText(String wholeText,String start, String end,out String sonuc, out String trimmedText)
+{
+	int startIndex	= wholeText.IndexOf(start);
+	int startLen	= start.Length;
+	int endIndex	= startIndex+startLen+wholeText.Substring(startIndex+startLen).IndexOf(end);
+	//int endIndex	= wholeText.IndexOf(end);
+	int dist		= (endIndex-(startIndex+startLen));
+	sonuc="";
+	trimmedText="";
+	if(dist<0||!wholeText.Contains(start)||!wholeText.Contains(end))
+	{
+	}
+	else 
+	{		
+		sonuc =wholeText.Substring(startIndex+startLen,dist);
+		trimmedText=wholeText.Substring(0,startIndex)+wholeText.Substring(endIndex+end.Length);	
+	}	
+}]]></code>
+  </stage>
+  <stage stageid="337b7fd4-0489-4221-951a-b1e8a146b14b" name="Clean Up" type="SubSheetInfo">
+    <subsheetid>77dde07c-95e2-4fa9-bdd3-5322a5104c3d</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="e668a372-d83f-46ad-a556-d72c235fd52d" name="Start" type="Start">
+    <subsheetid>77dde07c-95e2-4fa9-bdd3-5322a5104c3d</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>e2f6d92f-4ccb-428c-92b2-bafdd513b78f</onsuccess>
+  </stage>
+  <stage stageid="e2f6d92f-4ccb-428c-92b2-bafdd513b78f" name="End" type="End">
+    <subsheetid>77dde07c-95e2-4fa9-bdd3-5322a5104c3d</subsheetid>
+    <loginhibit />
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="411ac71a-515d-4a79-8162-b1578e7817f7" name="Note1" type="Note">
+    <subsheetid>77dde07c-95e2-4fa9-bdd3-5322a5104c3d</subsheetid>
+    <narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative>
+    <display x="-180" y="60" w="180" h="230" />
+  </stage>
+  <stage stageid="50201bb9-ae88-473d-8b45-f5293406bdcb" name="Note2" type="Note">
+    <narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative>
+    <display x="-180" y="60" w="180" h="230" />
+  </stage>
+  <stage stageid="11a5cc6c-8e9c-4386-b5a6-9bf03a701635" name="Populate" type="SubSheetInfo">
+    <subsheetid>19909a68-8267-4391-819e-58008fc22536</subsheetid>
+    <display x="-255" y="-105" w="120" h="30" />
+  </stage>
+  <stage stageid="b7919a87-bc9f-4d8b-ae72-577e5fb46e5a" name="Start" type="Start">
+    <subsheetid>19909a68-8267-4391-819e-58008fc22536</subsheetid>
+    <loginhibit />
+    <display x="-30" y="-315" />
+    <onsuccess>719675c6-bc9b-4c37-99ab-efd2c993d880</onsuccess>
+  </stage>
+  <stage stageid="c12e3e55-7c58-4251-8b9f-038345056bb6" name="End" type="End">
+    <subsheetid>19909a68-8267-4391-819e-58008fc22536</subsheetid>
+    <loginhibit />
+    <display x="-30" y="240" />
+  </stage>
+  <stage stageid="312e8c3a-da2b-41a1-9313-ea5eecd0b5b7" name="Create Instance" type="Action">
+    <subsheetid>19909a68-8267-4391-819e-58008fc22536</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="-30" y="-60" w="90" h="30" />
+    <inputs>
+      <input type="flag" name="Enable Events" friendlyname="Enable Events" narrative="Flag to indicate that events should be enabled / disabled on the attached instance - defaulted to True" expr="" />
+    </inputs>
+    <outputs>
+      <output type="number" name="handle" friendlyname="handle" narrative="An integer which can be used to identify the created instance in subsequent actions" stage="handle" />
+    </outputs>
+    <onsuccess>d896992f-c674-4f6d-836c-0a5895fffa6c</onsuccess>
+    <resource object="MS Excel VBO" action="Create Instance" />
+  </stage>
+  <stage stageid="1d76dd09-c5e6-4463-a3cb-7a0806ba0bcd" name="handle" type="Data">
+    <subsheetid>19909a68-8267-4391-819e-58008fc22536</subsheetid>
+    <display x="-225" y="45" w="120" h="30" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="d896992f-c674-4f6d-836c-0a5895fffa6c" name="Open WorkBook" type="Action">
+    <subsheetid>19909a68-8267-4391-819e-58008fc22536</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="-30" y="-15" w="90" h="30" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the required workbook should be opened. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="File name" friendlyname="File name" narrative="The path and name of the file which should be opened." expr="[Excel File Path]" />
+    </inputs>
+    <outputs>
+      <output type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name used by Excel to identify the workbook - usually this is the file name (without the path)." stage="Workbook Name" />
+    </outputs>
+    <onsuccess>722c6d61-665f-4d2b-aebf-639dfefde2f4</onsuccess>
+    <resource object="MS Excel VBO" action="Open Workbook" />
+  </stage>
+  <stage stageid="424f37f8-dead-49de-9b8e-e946c0c9898b" name="Workbook Name" type="Data">
+    <subsheetid>19909a68-8267-4391-819e-58008fc22536</subsheetid>
+    <display x="-225" y="75" w="120" h="30" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="722c6d61-665f-4d2b-aebf-639dfefde2f4" name="Get Worksheet as Collection" type="Action">
+    <subsheetid>19909a68-8267-4391-819e-58008fc22536</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="-30" y="30" w="90" h="30" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the worksheet which should be retrieved resides. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name of the workbook which contains the sheet required. The default empty text indicates the currently active workbook on the specified instance." expr="[Workbook Name]" />
+      <input type="text" name="Worksheet Name" friendlyname="Worksheet Name" narrative="The name of the worksheet within the specified workbook which should be written to a collection. The default empty text indicates the currently active worksheet within the specified workbook." expr="&quot;Sheet1&quot;" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="Data" friendlyname="Data" narrative="The collection containing the data from the specified worksheet - the column IDs will be gleaned from the first row on the sheet being retrieved." stage="ExcelData" />
+    </outputs>
+    <onsuccess>6c4ec034-7878-4677-aa50-e03bef3cb3a7</onsuccess>
+    <resource object="MS Excel VBO" action="Get Worksheet As Collection" />
+  </stage>
+  <stage stageid="6c4ec034-7878-4677-aa50-e03bef3cb3a7" name="Close WB" type="Action">
+    <subsheetid>19909a68-8267-4391-819e-58008fc22536</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="-30" y="75" w="90" h="30" />
+    <inputs>
+      <input type="number" name="handle" friendlyname="handle" narrative="The integer handle identifying the instance on which the workbook which should be closed resides. The default of zero indicates the currently active instance." expr="[handle]" />
+      <input type="text" name="Workbook Name" friendlyname="Workbook Name" narrative="The name of the workbook which should be closed." expr="[Workbook Name]" />
+      <input type="flag" name="Save Data" friendlyname="Save Data" narrative="True to save the data before closing the workbook; The default of False will discard any changes before closing the workbook." expr="" />
+    </inputs>
+    <onsuccess>f3dd5dca-bed4-44ff-a748-05cd5bd2fad7</onsuccess>
+    <resource object="MS Excel VBO" action="Close Workbook" />
+  </stage>
+  <stage stageid="f3dd5dca-bed4-44ff-a748-05cd5bd2fad7" name="Close All Instances" type="Action">
+    <subsheetid>19909a68-8267-4391-819e-58008fc22536</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="-30" y="120" w="90" h="30" />
+    <onsuccess>3d0aeb21-2b77-45f7-8a7b-3700441730f2</onsuccess>
+    <resource object="MS Excel VBO" action="Close All Instances" />
+  </stage>
+  <stage stageid="136a7abc-51d0-49ca-afe2-e0e9054157c3" name="Launch" type="SubSheetInfo">
+    <subsheetid>08862648-6cce-4be2-ba51-462113b1b801</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="dd111ef3-7c7c-4841-99bf-d2fef3e33d18" name="Start" type="Start">
+    <subsheetid>08862648-6cce-4be2-ba51-462113b1b801</subsheetid>
+    <loginhibit />
+    <display x="15" y="-180" />
+    <onsuccess>aa89820d-cdde-453e-9ce0-1f7bc5d1f9b5</onsuccess>
+  </stage>
+  <stage stageid="1cde8d6c-2f31-4dec-ae63-e7263add2782" name="End" type="End">
+    <subsheetid>08862648-6cce-4be2-ba51-462113b1b801</subsheetid>
+    <loginhibit />
+    <display x="15" y="60" />
+  </stage>
+  <stage stageid="aa89820d-cdde-453e-9ce0-1f7bc5d1f9b5" name="Launch" type="Navigate">
+    <subsheetid>08862648-6cce-4be2-ba51-462113b1b801</subsheetid>
+    <loginhibit />
+    <display x="15" y="-120" />
+    <onsuccess>36e85959-c68d-479d-8813-8eca41daacf8</onsuccess>
+    <step>
+      <element id="d88b70f8-8e0f-4bdd-975a-af31bf096c81" />
+      <action>
+        <id>Launch</id>
+        <arguments>
+          <argument>
+            <id>WindowTitle</id>
+            <value>[WinTitle]</value>
+          </argument>
+          <argument>
+            <id>ProcessName</id>
+            <value>"iexplore"</value>
+          </argument>
+          <argument>
+            <id>Path</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>CommandLineParams</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ActiveTabOnly</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>UseJavaInBrowser</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ExcludeHTC</id>
+            <value>
+            </value>
+          </argument>
+          <argument>
+            <id>ProcessMode</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="90fed399-fb75-4ee8-a9ea-9bfa002df1e4" name="WinTitle" type="Data">
+    <subsheetid>08862648-6cce-4be2-ba51-462113b1b801</subsheetid>
+    <loginhibit />
+    <display x="225" y="-90" w="90" h="30" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">*Rpa Challange*</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="975433e3-8d45-4c2b-b4c0-ba775a1b716e" name="Launch" type="Navigate" interval="0.1">
+    <subsheetid>08862648-6cce-4be2-ba51-462113b1b801</subsheetid>
+    <loginhibit />
+    <display x="15" y="0" />
+    <onsuccess>f79cd19f-ff15-4583-ae05-6c23e0cb620d</onsuccess>
+    <step>
+      <element id="41e885b5-35dc-45bf-a07e-cc997e50dc39" />
+      <action>
+        <id>MaximiseWindow</id>
+      </action>
+    </step>
+    <step>
+      <element id="41e885b5-35dc-45bf-a07e-cc997e50dc39" />
+      <action>
+        <id>ActivateApp</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="36e85959-c68d-479d-8813-8eca41daacf8" name="Wait For Process Window" type="Action">
+    <subsheetid>08862648-6cce-4be2-ba51-462113b1b801</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="15" y="-60" />
+    <inputs>
+      <input type="text" name="Process Name" friendlyname="Process Name" narrative="The name of the process to attach to" expr="&quot;iexplore&quot;" />
+      <input type="text" name="Window Title" friendlyname="Window Title" narrative="The title of the window within the process" expr="&quot;Rpa*&quot;" />
+      <input type="number" name="Wait" friendlyname="Wait" narrative="The maximum amount of time to wait for" expr="10" />
+    </inputs>
+    <outputs>
+      <output type="flag" name="Found" friendlyname="Found" stage="" />
+    </outputs>
+    <onsuccess>975433e3-8d45-4c2b-b4c0-ba775a1b716e</onsuccess>
+    <resource object="Utility - Environment" action="Wait for Process Window" />
+  </stage>
+  <stage stageid="c10972f0-9ca7-4baa-a1f5-1128074b39db" name="Time Out2" type="WaitEnd">
+    <subsheetid>08862648-6cce-4be2-ba51-462113b1b801</subsheetid>
+    <loginhibit />
+    <display x="-165" y="105" w="30" h="30" />
+    <onsuccess>9748393a-2b99-48e0-8cd7-1603f1f04422</onsuccess>
+    <groupid>25293e2d-5dd5-41ac-a1c0-5768603917ed</groupid>
+  </stage>
+  <stage stageid="f79cd19f-ff15-4583-ae05-6c23e0cb620d" name="Wait2" type="WaitStart">
+    <subsheetid>08862648-6cce-4be2-ba51-462113b1b801</subsheetid>
+    <loginhibit />
+    <display x="-165" y="0" w="30" h="30" />
+    <groupid>25293e2d-5dd5-41ac-a1c0-5768603917ed</groupid>
+    <choices>
+      <choice reply="True">
+        <name>Start Button Check Exists</name>
+        <distance>60</distance>
+        <ontrue>1cde8d6c-2f31-4dec-ae63-e7263add2782</ontrue>
+        <element id="7f1fb302-72d4-4616-b560-8fac4fff8424" />
+        <condition>
+          <id>CheckExists</id>
+        </condition>
+        <comparetype>Equal</comparetype>
+      </choice>
+    </choices>
+    <timeout>15</timeout>
+  </stage>
+  <stage stageid="dbbb3051-ce82-48db-8764-9ee3bba9c2fe" name="Main" type="SubSheetInfo">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <display x="-225" y="-150" w="150" h="30" />
+  </stage>
+  <stage stageid="f45fe76f-d59f-4e1d-94ce-8314beb4fb65" name="Start" type="Start">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="0" y="-300" />
+    <onsuccess>42c117d6-aa8a-4122-a78e-f2b41e587f4b</onsuccess>
+  </stage>
+  <stage stageid="fa2c0ea0-e768-42d1-a3a0-90ad3b32c9bd" name="End" type="End">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="0" y="165" />
+  </stage>
+  <stage stageid="c2155556-4502-4e67-82da-968865fa177a" name="Populate" type="SubSheet">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="0" y="-195" />
+    <inputs>
+      <input type="text" name="Excel File Path" friendlyname="Excel File Path" expr="&quot;C:\Users\User\Desktop\RPAChallange\challenge.xlsx&quot;" />
+    </inputs>
+    <onsuccess>1ad0a268-9ccb-4a38-8ad9-baedb965ac56</onsuccess>
+    <processid>19909a68-8267-4391-819e-58008fc22536</processid>
+  </stage>
+  <stage stageid="42c117d6-aa8a-4122-a78e-f2b41e587f4b" name="Launch" type="SubSheet">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="0" y="-240" />
+    <onsuccess>c2155556-4502-4e67-82da-968865fa177a</onsuccess>
+    <processid>08862648-6cce-4be2-ba51-462113b1b801</processid>
+  </stage>
+  <stage stageid="eec609e1-bc49-4bb3-8bca-2e8327a2cb56" name="excel Rows" type="LoopStart">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="120" y="-150" />
+    <onsuccess>90c553c4-7a70-4b42-b33d-a4f8a321c4c5</onsuccess>
+    <groupid>9a62a7b5-7f19-4adc-b291-79cbdb701c78</groupid>
+    <looptype>ForEach</looptype>
+    <loopdata>ExcelData</loopdata>
+  </stage>
+  <stage stageid="942e6a22-4cca-4358-ac1b-42c06e1fbd60" name="excel Rows" type="LoopEnd">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="120" y="90" />
+    <onsuccess>28d54056-b486-4a7d-b5e3-110ff16b0c9d</onsuccess>
+    <groupid>9a62a7b5-7f19-4adc-b291-79cbdb701c78</groupid>
+  </stage>
+  <stage stageid="cbb354b8-79d8-4eb0-bde0-7943c614da2a" name="Excel Row" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="420" y="-75" w="120" h="30" />
+    <datatype>number</datatype>
+    <initialvalue>0</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="13fd2ddd-af94-4330-977f-54961c4fa945" name="Value1" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-225" y="-90" w="120" h="30" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="97a21f49-c9af-4d46-9d19-e9f301d0956c" name="Value2" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-225" y="-60" w="120" h="30" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="4e301794-dc27-4758-b551-d46a98ceb3de" name="Value3" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-225" y="-30" w="120" h="30" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="a9aba64c-9840-4a45-a163-d5c82a26dc81" name="Value4" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-225" y="0" w="120" h="30" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="9668d594-bfe9-4dfc-bd9d-79031098c4fd" name="Value5" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-225" y="30" w="120" h="30" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="a8c7542a-1057-42ff-b1e3-67c0bcb7d3da" name="Value6" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-225" y="60" w="120" h="30" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="920b2fb7-b57f-4b07-9b1d-6410d1e15952" name="Value7" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-225" y="90" w="120" h="30" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="54f45484-0443-4717-b9df-0d63fde7eb2c" name="Enter" type="Navigate">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="120" y="45" />
+    <onsuccess>942e6a22-4cca-4358-ac1b-42c06e1fbd60</onsuccess>
+    <step>
+      <element id="d64526e7-8e36-42f9-8328-874cc552e4a3" />
+      <action>
+        <id>HTMLClickCentre</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="28d54056-b486-4a7d-b5e3-110ff16b0c9d" name="Detach" type="Navigate">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="0" y="90" />
+    <onsuccess>fa2c0ea0-e768-42d1-a3a0-90ad3b32c9bd</onsuccess>
+    <step>
+      <element id="d88b70f8-8e0f-4bdd-975a-af31bf096c81" />
+      <action>
+        <id>DetachApplication</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="d51d3fc0-f2d2-45b9-8ffa-b1f842debd6d" name="ExcelData" type="Collection">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <display x="420" y="-30" w="120" h="30" />
+    <datatype>collection</datatype>
+    <alwaysinit />
+  </stage>
+  <stage stageid="719675c6-bc9b-4c37-99ab-efd2c993d880" name="Get Username" type="Action">
+    <subsheetid>19909a68-8267-4391-819e-58008fc22536</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="-30" y="-255" w="90" h="30" />
+    <outputs>
+      <output type="text" name="User Name" friendlyname="User Name" narrative="The name of the logged in user in the current system" stage="User Name" />
+    </outputs>
+    <onsuccess>51604c15-fbee-47f9-9065-f542dd9136ae</onsuccess>
+    <resource object="Utility - Environment" action="Get User Name" />
+  </stage>
+  <stage stageid="aab8e9e8-6eea-47ce-8da4-dad64540195c" name="User Name" type="Data">
+    <subsheetid>19909a68-8267-4391-819e-58008fc22536</subsheetid>
+    <display x="-225" y="15" w="120" h="30" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="3d0aeb21-2b77-45f7-8a7b-3700441730f2" name="Utility - Collection Manipulation::Remove Empty Rows" type="Action">
+    <subsheetid>19909a68-8267-4391-819e-58008fc22536</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="-30" y="165" w="90" h="30" />
+    <inputs>
+      <input type="collection" name="Collection In" friendlyname="Collection In" narrative="The collection to remove empty rows from" expr="[ExcelData]" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="Collection Out" friendlyname="Collection Out" narrative="The collection with the empty rows removed" stage="ExcelData" />
+    </outputs>
+    <onsuccess>c12e3e55-7c58-4251-8b9f-038345056bb6</onsuccess>
+    <resource object="Utility - Collection Manipulation" action="Remove Empty Rows" />
+  </stage>
+  <stage stageid="90c553c4-7a70-4b42-b33d-a4f8a321c4c5" name="Get HTML of Inputs Div" type="Read">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="120" y="-105" />
+    <onsuccess>2e66186c-fc2d-4f9e-b658-cdc7f53fa15d</onsuccess>
+    <step stage="Inputs Div HTML">
+      <element id="92b85ea4-9f00-45e7-899b-4ecb8f7d70bd" />
+      <action>
+        <id>HTMLGetOuterHTML</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="f5ce819e-eff5-4aa6-8b90-07c8eae4d8a9" name="Inputs Div HTML" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <display x="420" y="45" w="120" h="30" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="2e66186c-fc2d-4f9e-b658-cdc7f53fa15d" name="parseHTML" type="Code">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="120" y="-60" />
+    <inputs>
+      <input type="number" name="excelRow" expr="[Excel Row]" />
+      <input type="collection" name="excel" expr="[ExcelData]" />
+      <input type="text" name="divHTML" expr="[Inputs Div HTML]" />
+    </inputs>
+    <outputs>
+      <output type="number" name="excRow" stage="Excel Row" />
+      <output type="text" name="v1" stage="Value1" />
+      <output type="text" name="v2" stage="Value2" />
+      <output type="text" name="v3" stage="Value3" />
+      <output type="text" name="v4" stage="Value4" />
+      <output type="text" name="v5" stage="Value5" />
+      <output type="text" name="v6" stage="Value6" />
+      <output type="text" name="v7" stage="Value7" />
+      <output type="text" name="c1" stage="class1" />
+      <output type="text" name="c2" stage="class2" />
+      <output type="text" name="c3" stage="class3" />
+      <output type="text" name="c4" stage="class4" />
+      <output type="text" name="c5" stage="class5" />
+      <output type="text" name="c6" stage="class6" />
+      <output type="text" name="c7" stage="class7" />
+      <output type="text" name="id1" stage="id1" />
+      <output type="text" name="id2" stage="id2" />
+      <output type="text" name="id3" stage="id3" />
+      <output type="text" name="id4" stage="id4" />
+      <output type="text" name="id5" stage="id5" />
+      <output type="text" name="id6" stage="id6" />
+      <output type="text" name="id7" stage="id7" />
+    </outputs>
+    <onsuccess>95919ad2-ba82-4770-9265-39e8eb85efcf</onsuccess>
+    <code><![CDATA[
+string[] valueArr	= new string[7];
+string[] idArr	= new string[7];
+string[] classArr	= new string[7];
+
+int er = Convert.ToInt32(excelRow);
+//er is the row index of the current excel data. is between 0 and 9
+string html = divHTML;
+
+for(int i=0; i<7; i++)
+{
+	String myLabel = "";
+	midText(html,"<input name=","><",out myLabel,out html);
+	//midText method is defined in the Globl Code Stage
+	midText(myLabel,"class=\"","\"",out classArr[i],out myLabel);
+	midText(myLabel,"id=\"","\"",out idArr[i],out myLabel);
+	myLabel = myLabel.ToLower();
+	if(myLabel.Contains("first"))
+	{
+		valueArr[i]=excel.Rows[er][0].ToString().Trim();
+	}
+	else if(myLabel.Contains("last"))
+	{
+		valueArr[i]=excel.Rows[er][1].ToString().Trim();
+	}	
+	else if(myLabel.Contains("role"))
+	{
+		valueArr[i]=excel.Rows[er][3].ToString().Trim();
+	}	
+	else if(myLabel.Contains("address"))
+	{
+		valueArr[i]=excel.Rows[er][4].ToString().Trim();
+	}	
+	else if(myLabel.Contains("mail"))
+	{
+		valueArr[i]=excel.Rows[er][5].ToString().Trim();
+	}	
+	else if(myLabel.Contains("phone"))
+	{
+		valueArr[i]=excel.Rows[er][6].ToString().Trim();
+	}		
+	else if(myLabel.Contains("company"))
+	{
+		valueArr[i]=excel.Rows[er][2].ToString().Trim();
+	}	else {}	
+
+}
+
+
+
+
+v1	=	valueArr[0];
+v2	=	valueArr[1];
+v3	=	valueArr[2];
+v4	=	valueArr[3];
+v5	=	valueArr[4];
+v6	=	valueArr[5];
+v7	=	valueArr[6];
+
+c1	=	classArr[0]; 
+c2	=	classArr[1]; 
+c3	=	classArr[2]; 
+c4	=	classArr[3]; 
+c5	=	classArr[4]; 
+c6	=	classArr[5]; 
+c7	=	classArr[6]; 
+
+id1	=	idArr[0];
+id2	=	idArr[1];
+id3	=	idArr[2];
+id4	=	idArr[3];
+id5	=	idArr[4];
+id6	=	idArr[5];
+id7	=	idArr[6];
+
+excRow = Convert.ToInt32(excelRow)+1;
+//increase er for the next row
+//Author: Baris.karakas@hotmail.com
+]]></code>
+  </stage>
+  <stage stageid="da7daf58-b9b2-4865-9dda-4dc33f18b532" name="Excel Things" type="Block">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="345" y="-105" w="150" h="105" />
+    <font family="Segoe UI" size="10" style="Regular" color="00FF00" />
+  </stage>
+  <stage stageid="d3946c4d-6a37-414c-a35d-7d1316025ec6" name="Values To Be Entered" type="Block">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-300" y="-120" w="150" h="240" />
+    <font family="Segoe UI" size="10" style="Regular" color="993366" />
+  </stage>
+  <stage stageid="3d9f8353-6d4b-4a20-a40b-1bdc4b5f6110" name="HTML of The Div" type="Block">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="345" y="15" w="150" h="60" />
+    <font family="Segoe UI" size="10" style="Regular" color="FF0000" />
+  </stage>
+  <stage stageid="51604c15-fbee-47f9-9065-f542dd9136ae" name="Excel File Path" type="Calculation">
+    <subsheetid>19909a68-8267-4391-819e-58008fc22536</subsheetid>
+    <loginhibit />
+    <display x="-30" y="-210" w="90" h="30" />
+    <onsuccess>a31ba96b-f628-4d97-8e2e-f63eab80656d</onsuccess>
+    <calculation expression="&quot;C:\Users\&quot;&amp;[User Name]&amp;&quot;\Desktop\challenge.xlsx&quot;" stage="Excel File Path" />
+  </stage>
+  <stage stageid="439c64f0-7a00-4fa7-8470-21adc2bfd765" name="Excel File Path" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-375" y="-150" w="120" h="30" />
+    <font family="Segoe UI" size="10" style="Bold" color="FF0000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <alwaysinit />
+  </stage>
+  <stage stageid="a31ba96b-f628-4d97-8e2e-f63eab80656d" name="File Exists?" type="Action">
+    <subsheetid>19909a68-8267-4391-819e-58008fc22536</subsheetid>
+    <loginhibit onsuccess="true" />
+    <display x="-30" y="-165" w="90" h="30" />
+    <inputs>
+      <input type="text" name="File Name" friendlyname="File Name" narrative="The name of the file to check" expr="[Excel File Path]" />
+    </inputs>
+    <outputs>
+      <output type="flag" name="Exists" friendlyname="Exists" narrative="True if the file exists" stage="Excel Exists ?" />
+    </outputs>
+    <onsuccess>f17e2008-bd49-4500-a733-2705eb5d910b</onsuccess>
+    <resource object="Utility - File Management" action="File Exists" />
+  </stage>
+  <stage stageid="ace46c85-8d1c-477f-8962-f9f5a0d9a6fa" name="Excel Exists ?" type="Data">
+    <subsheetid>19909a68-8267-4391-819e-58008fc22536</subsheetid>
+    <display x="180" y="-135" />
+    <datatype>flag</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="f17e2008-bd49-4500-a733-2705eb5d910b" name="Decision1" type="Decision">
+    <subsheetid>19909a68-8267-4391-819e-58008fc22536</subsheetid>
+    <loginhibit />
+    <display x="-30" y="-120" />
+    <decision expression="[Excel Exists ?]" />
+    <ontrue>312e8c3a-da2b-41a1-9313-ea5eecd0b5b7</ontrue>
+    <onfalse>db226203-e8d7-4c59-a826-eef7aae48c88</onfalse>
+  </stage>
+  <stage stageid="542b19bf-a3b7-47b6-9c4e-5b4c21a44fc9" name="Download Excel" type="SubSheetInfo">
+    <subsheetid>eadf0279-e092-45a9-9702-4e6b2ac766bc</subsheetid>
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="03d626f1-6ee8-4202-9be3-8a9086e72284" name="Start" type="Start">
+    <subsheetid>eadf0279-e092-45a9-9702-4e6b2ac766bc</subsheetid>
+    <loginhibit />
+    <display x="15" y="-165" />
+    <onsuccess>dca5babb-3245-4d16-bd15-799637dfeaf4</onsuccess>
+  </stage>
+  <stage stageid="e7211b48-5ef2-4933-a0bf-a112b77eac8d" name="End" type="End">
+    <subsheetid>eadf0279-e092-45a9-9702-4e6b2ac766bc</subsheetid>
+    <loginhibit />
+    <display x="15" y="285" />
+  </stage>
+  <stage stageid="dca5babb-3245-4d16-bd15-799637dfeaf4" name="Navigate URL" type="Navigate">
+    <subsheetid>eadf0279-e092-45a9-9702-4e6b2ac766bc</subsheetid>
+    <loginhibit />
+    <display x="15" y="-105" />
+    <onsuccess>495e9675-9524-41c3-bbc5-dfcf58837faa</onsuccess>
+    <step>
+      <element id="d88b70f8-8e0f-4bdd-975a-af31bf096c81" />
+      <action>
+        <id>HTMLNavigate</id>
+        <arguments>
+          <argument>
+            <id>NewText</id>
+            <value>"http://rpachallenge.com/assets/downloadFiles/challenge.xlsx"</value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="47ea45ee-be26-421f-891b-50208d839c39" name="Block1" type="Block">
+    <subsheetid>eadf0279-e092-45a9-9702-4e6b2ac766bc</subsheetid>
+    <loginhibit />
+    <display x="-30" y="-135" w="135" h="60" />
+    <font family="Segoe UI" size="10" style="Regular" color="7FB2E5" />
+  </stage>
+  <stage stageid="2cd13038-3af5-4118-aa9a-108421ef4aa7" name="Recover1" type="Recover">
+    <subsheetid>eadf0279-e092-45a9-9702-4e6b2ac766bc</subsheetid>
+    <loginhibit />
+    <display x="75" y="-105" w="30" h="30" />
+    <onsuccess>479fcba8-6deb-49c4-8eb4-9ae318ffe96c</onsuccess>
+  </stage>
+  <stage stageid="479fcba8-6deb-49c4-8eb4-9ae318ffe96c" name="Resume1" type="Resume">
+    <subsheetid>eadf0279-e092-45a9-9702-4e6b2ac766bc</subsheetid>
+    <loginhibit />
+    <display x="135" y="-105" w="30" h="30" />
+    <onsuccess>dfc217e6-4844-4e34-9ef7-7b30d9518948</onsuccess>
+  </stage>
+  <stage stageid="dfc217e6-4844-4e34-9ef7-7b30d9518948" name="Download Excel Button" type="Navigate">
+    <subsheetid>eadf0279-e092-45a9-9702-4e6b2ac766bc</subsheetid>
+    <loginhibit />
+    <display x="135" y="-45" />
+    <onsuccess>495e9675-9524-41c3-bbc5-dfcf58837faa</onsuccess>
+    <step>
+      <element id="817a2b3c-20a8-4efa-952a-7dffa3aeac9e" />
+      <action>
+        <id>UIAClickCentre</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="53d94652-f5e9-4caf-85a4-1206c986f2c7" name="Time Out3" type="WaitEnd">
+    <subsheetid>eadf0279-e092-45a9-9702-4e6b2ac766bc</subsheetid>
+    <loginhibit />
+    <display x="105" y="15" w="30" h="30" />
+    <onsuccess>573f8ef7-d7af-4329-8ccc-05c209b45b24</onsuccess>
+    <groupid>43b46f87-e80e-42d3-828e-cd0cce13a3c2</groupid>
+  </stage>
+  <stage stageid="fef52c57-b286-4f80-a720-80365203a713" name="Wait3" type="WaitStart">
+    <subsheetid>eadf0279-e092-45a9-9702-4e6b2ac766bc</subsheetid>
+    <loginhibit />
+    <display x="-45" y="15" w="30" h="30" />
+    <groupid>43b46f87-e80e-42d3-828e-cd0cce13a3c2</groupid>
+    <choices>
+      <choice reply="True">
+        <name>Element1 Check Exists</name>
+        <distance>60</distance>
+        <ontrue>90e8ce48-9961-439e-b1e8-2393fc300362</ontrue>
+        <element id="042f3174-c3cf-43ae-8791-305777f80923" />
+        <condition>
+          <id>CheckExists</id>
+        </condition>
+        <comparetype>Equal</comparetype>
+      </choice>
+    </choices>
+    <timeout>20</timeout>
+  </stage>
+  <stage stageid="495e9675-9524-41c3-bbc5-dfcf58837faa" name="Anchor1" type="Anchor">
+    <subsheetid>eadf0279-e092-45a9-9702-4e6b2ac766bc</subsheetid>
+    <loginhibit />
+    <display x="15" y="-30" w="10" h="10" />
+    <onsuccess>fef52c57-b286-4f80-a720-80365203a713</onsuccess>
+  </stage>
+  <stage stageid="90e8ce48-9961-439e-b1e8-2393fc300362" name="Save As" type="Navigate">
+    <subsheetid>eadf0279-e092-45a9-9702-4e6b2ac766bc</subsheetid>
+    <loginhibit />
+    <display x="15" y="75" />
+    <onsuccess>015c96c8-7445-4cae-975d-0ca73011a67e</onsuccess>
+    <step>
+      <element id="042f3174-c3cf-43ae-8791-305777f80923" />
+      <action>
+        <id>UIAClickCentre</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="573f8ef7-d7af-4329-8ccc-05c209b45b24" name="Exception1" type="Exception">
+    <subsheetid>eadf0279-e092-45a9-9702-4e6b2ac766bc</subsheetid>
+    <display x="210" y="15" />
+    <exception localized="yes" type="System Exception" detail="&quot;I am sorry i cant download excel because save as button is not present. can you please the challange.xlsx excel and copy it to your desktop&quot;" />
+  </stage>
+  <stage stageid="949d334a-da10-4fed-821f-6eaef6912ba0" name="Time Out6" type="WaitEnd">
+    <subsheetid>eadf0279-e092-45a9-9702-4e6b2ac766bc</subsheetid>
+    <loginhibit />
+    <display x="105" y="120" w="30" h="30" />
+    <onsuccess>79f4db96-a42a-4f8a-be3d-9ac03c109d59</onsuccess>
+    <groupid>93d5043f-769c-4fce-98f3-b386afb48a5a</groupid>
+  </stage>
+  <stage stageid="015c96c8-7445-4cae-975d-0ca73011a67e" name="Wait6" type="WaitStart">
+    <subsheetid>eadf0279-e092-45a9-9702-4e6b2ac766bc</subsheetid>
+    <loginhibit />
+    <display x="-45" y="120" w="30" h="30" />
+    <groupid>93d5043f-769c-4fce-98f3-b386afb48a5a</groupid>
+    <choices>
+      <choice reply="True">
+        <name>File Name Edit Box Check Exists</name>
+        <distance>60</distance>
+        <ontrue>235fa79b-1a79-4620-92ab-45eb829b6b49</ontrue>
+        <element id="4dcc217e-c253-4462-9c51-80ddd91b7a95" />
+        <condition>
+          <id>CheckExists</id>
+        </condition>
+        <comparetype>Equal</comparetype>
+      </choice>
+    </choices>
+    <timeout>20</timeout>
+  </stage>
+  <stage stageid="79f4db96-a42a-4f8a-be3d-9ac03c109d59" name="Exception1" type="Exception">
+    <subsheetid>eadf0279-e092-45a9-9702-4e6b2ac766bc</subsheetid>
+    <display x="210" y="120" />
+    <exception localized="yes" type="System Exception" detail="&quot;I am sorry i cant download excel because file name address bar is not present. can you please the challange.xlsx excel and copy it to your desktop&quot;" />
+  </stage>
+  <stage stageid="235fa79b-1a79-4620-92ab-45eb829b6b49" name="Write ExcelFile Path" type="Navigate" interval="0.2">
+    <subsheetid>eadf0279-e092-45a9-9702-4e6b2ac766bc</subsheetid>
+    <loginhibit />
+    <display x="15" y="165" />
+    <onsuccess>e6445053-1ed6-4e4a-8642-f1323bb1777d</onsuccess>
+    <step>
+      <element id="4dcc217e-c253-4462-9c51-80ddd91b7a95" />
+      <action>
+        <id>UIAClickCentre</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+    <step>
+      <element id="d88b70f8-8e0f-4bdd-975a-af31bf096c81" />
+      <action>
+        <id>SendKeyEvents</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>"{HOME}"</value>
+          </argument>
+          <argument>
+            <id>interval</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+    <step>
+      <element id="d88b70f8-8e0f-4bdd-975a-af31bf096c81" />
+      <action>
+        <id>SendKeyEvents</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>"&lt;{SHIFT}{END}&gt;{SHIFT}"</value>
+          </argument>
+          <argument>
+            <id>interval</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+    <step>
+      <element id="d88b70f8-8e0f-4bdd-975a-af31bf096c81" />
+      <action>
+        <id>SendKeyEvents</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>"{DEL}"</value>
+          </argument>
+          <argument>
+            <id>interval</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+    <step>
+      <element id="d88b70f8-8e0f-4bdd-975a-af31bf096c81" />
+      <action>
+        <id>SendKeys</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>[Excel File Path]</value>
+          </argument>
+          <argument>
+            <id>interval</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+    <step>
+      <element id="d88b70f8-8e0f-4bdd-975a-af31bf096c81" />
+      <action>
+        <id>SendKeyEvents</id>
+        <arguments>
+          <argument>
+            <id>newtext</id>
+            <value>"{ENTER}"</value>
+          </argument>
+          <argument>
+            <id>interval</id>
+            <value>
+            </value>
+          </argument>
+        </arguments>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="6a50de0c-b7c9-419f-97a1-756b9d6ce689" name="Time Out6" type="WaitEnd">
+    <subsheetid>eadf0279-e092-45a9-9702-4e6b2ac766bc</subsheetid>
+    <loginhibit />
+    <display x="105" y="210" w="30" h="30" />
+    <onsuccess>e7211b48-5ef2-4933-a0bf-a112b77eac8d</onsuccess>
+    <groupid>4a7886a7-8ff7-4fae-b387-c2347b64ded4</groupid>
+  </stage>
+  <stage stageid="e6445053-1ed6-4e4a-8642-f1323bb1777d" name="Wait6" type="WaitStart">
+    <subsheetid>eadf0279-e092-45a9-9702-4e6b2ac766bc</subsheetid>
+    <loginhibit />
+    <display x="-45" y="210" w="30" h="30" />
+    <groupid>4a7886a7-8ff7-4fae-b387-c2347b64ded4</groupid>
+    <choices>
+      <choice reply="False">
+        <name>File Name Edit Box Check Exists</name>
+        <distance>60</distance>
+        <ontrue>e7211b48-5ef2-4933-a0bf-a112b77eac8d</ontrue>
+        <element id="4dcc217e-c253-4462-9c51-80ddd91b7a95" />
+        <condition>
+          <id>CheckExists</id>
+        </condition>
+        <comparetype>Equal</comparetype>
+      </choice>
+    </choices>
+    <timeout>20</timeout>
+  </stage>
+  <stage stageid="db226203-e8d7-4c59-a826-eef7aae48c88" name="Download Excel" type="SubSheet">
+    <subsheetid>19909a68-8267-4391-819e-58008fc22536</subsheetid>
+    <loginhibit />
+    <display x="60" y="-120" />
+    <onsuccess>312e8c3a-da2b-41a1-9313-ea5eecd0b5b7</onsuccess>
+    <processid>eadf0279-e092-45a9-9702-4e6b2ac766bc</processid>
+  </stage>
+  <stage stageid="95919ad2-ba82-4770-9265-39e8eb85efcf" name="Write Everything" type="Write">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="120" y="-15" />
+    <onsuccess>54f45484-0443-4717-b9df-0d63fde7eb2c</onsuccess>
+    <step expr="[Value1]">
+      <element id="8404979d-5658-4fb8-9662-a379ce4e6489">
+        <elementparameter>
+          <name>ClassName</name>
+          <expression>[class1]</expression>
+          <datatype>text</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+        <elementparameter>
+          <name>ID</name>
+          <expression>[id1]</expression>
+          <datatype>text</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+      </element>
+    </step>
+    <step expr="[Value2]">
+      <element id="8404979d-5658-4fb8-9662-a379ce4e6489">
+        <elementparameter>
+          <name>ClassName</name>
+          <expression>[class2]</expression>
+          <datatype>text</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+        <elementparameter>
+          <name>ID</name>
+          <expression>[id2]</expression>
+          <datatype>text</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+      </element>
+    </step>
+    <step expr="[Value3]">
+      <element id="8404979d-5658-4fb8-9662-a379ce4e6489">
+        <elementparameter>
+          <name>ClassName</name>
+          <expression>[class3]</expression>
+          <datatype>text</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+        <elementparameter>
+          <name>ID</name>
+          <expression>[id3]</expression>
+          <datatype>text</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+      </element>
+    </step>
+    <step expr="[Value4]">
+      <element id="8404979d-5658-4fb8-9662-a379ce4e6489">
+        <elementparameter>
+          <name>ClassName</name>
+          <expression>[class4]</expression>
+          <datatype>text</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+        <elementparameter>
+          <name>ID</name>
+          <expression>[id4]</expression>
+          <datatype>text</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+      </element>
+    </step>
+    <step expr="[Value5]">
+      <element id="8404979d-5658-4fb8-9662-a379ce4e6489">
+        <elementparameter>
+          <name>ClassName</name>
+          <expression>[class5]</expression>
+          <datatype>text</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+        <elementparameter>
+          <name>ID</name>
+          <expression>[id5]</expression>
+          <datatype>text</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+      </element>
+    </step>
+    <step expr="[Value6]">
+      <element id="8404979d-5658-4fb8-9662-a379ce4e6489">
+        <elementparameter>
+          <name>ClassName</name>
+          <expression>[class6]</expression>
+          <datatype>text</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+        <elementparameter>
+          <name>ID</name>
+          <expression>[id6]</expression>
+          <datatype>text</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+      </element>
+    </step>
+    <step expr="[Value7]">
+      <element id="8404979d-5658-4fb8-9662-a379ce4e6489">
+        <elementparameter>
+          <name>ClassName</name>
+          <expression>[class7]</expression>
+          <datatype>text</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+        <elementparameter>
+          <name>ID</name>
+          <expression>[id7]</expression>
+          <datatype>text</datatype>
+          <comparisontype>Equal</comparisontype>
+        </elementparameter>
+      </element>
+    </step>
+  </stage>
+  <stage stageid="3b9c8685-1ec3-45d6-a09b-d2a95eb09ae6" name="id1" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-360" y="-90" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="4839b082-4b9a-4110-a5c3-055af3ee945a" name="id2" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-360" y="-60" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="d6404448-670c-4848-bd06-ce3738e26770" name="id3" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-360" y="-30" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="76300b19-c904-4782-a45a-37afc85808ee" name="id4" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-360" y="0" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="5b2c2b9e-870b-4b37-96c5-214e6ad58a46" name="id5" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-360" y="30" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="8520b73c-8e3c-4ee8-9d82-c3b79a61a765" name="id6" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-360" y="60" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="48cd7bae-e907-495f-966c-737bf8bc5ffd" name="id7" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-360" y="90" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="1957b225-9e42-4cc7-9527-30833be55851" name="class1" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-465" y="-90" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="bc9a070f-2bbe-46dc-b349-476aad8e2432" name="class2" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-465" y="-60" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="6efa60d5-c9b0-4116-be7c-7895736a5041" name="class3" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-465" y="-30" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="17fee786-e8f9-4465-a78c-4cf03e0383c0" name="class4" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-465" y="0" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="b110887c-b609-4904-83ae-98f5732be9b7" name="class5" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-465" y="30" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="26b53c53-0e85-4814-ac9f-1e055156cbb2" name="class6" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-465" y="60" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="4294c7e1-3848-483d-bb0c-39495c7bfc31" name="class7" type="Data">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-465" y="90" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="1ad0a268-9ccb-4a38-8ad9-baedb965ac56" name="Start Button" type="Navigate">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="120" y="-195" />
+    <onsuccess>eec609e1-bc49-4bb3-8bca-2e8327a2cb56</onsuccess>
+    <step>
+      <element id="7f1fb302-72d4-4616-b560-8fac4fff8424" />
+      <action>
+        <id>HTMLClickCentre</id>
+      </action>
+    </step>
+  </stage>
+  <stage stageid="3e310d7c-3425-48f6-aed7-bb7fe7c544f7" name="id's" type="Block">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-405" y="-120" w="90" h="240" />
+    <font family="Segoe UI" size="10" style="Regular" color="FF6600" />
+  </stage>
+  <stage stageid="027656b4-7322-49ed-b44a-5b484a281f21" name="Classes" type="Block">
+    <subsheetid>7386efa6-1ad4-4e95-8fc5-1d8e1b0a325d</subsheetid>
+    <loginhibit />
+    <display x="-510" y="-120" w="90" h="240" />
+    <font family="Segoe UI" size="10" style="Regular" color="0000FF" />
+  </stage>
+  <stage stageid="9748393a-2b99-48e0-8cd7-1603f1f04422" name="Exception2" type="Exception">
+    <subsheetid>08862648-6cce-4be2-ba51-462113b1b801</subsheetid>
+    <display x="-255" y="105" />
+    <exception localized="yes" type="System Exception" detail="&quot;I Could not start the web page :( Parent document is not loaded&quot;" />
+  </stage>
+</process>
